@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Data Pegawai - Rozir Wobari</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box animated">
+            <h1>Data Pegawai</h1>
+            <form id="form">
+                <label for="nama">Nama Pegawai</label>
+                <input type="text" id="nama" name="nama" placeholder="Masukan Nama Anda">
+                <label for="jabatan">Jabatan</label>
+                <select name="jabatan" id="">
+                    <option value="">Pilih Jabatan</option>
+                    <option value="Manager">Manager</option>
+                    <option value="Asisten Manager">Asisten Manager</option>
+                    <option value="Staff">Staff</option>
+                </select>
+                <label for="status">Status Pegawai</label>
+                <select name="status" id="">
+                    <option value="">Pilih Status</option>
+                    <option value="Sudah Menikah">Sudah Menikah</option>
+                    <option value="Belum Menikah">Belum Menikah</option>
+                </select>
+            </form>
+            <input type="submit" value="Submit" onclick="inputData()">
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
